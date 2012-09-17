@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		884654841607AC4700BD95D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884654831607AC4700BD95D9 /* UIKit.framework */; };
+		884654861607AC4700BD95D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884654851607AC4700BD95D9 /* Foundation.framework */; };
+		884654881607AC4700BD95D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884654871607AC4700BD95D9 /* CoreGraphics.framework */; };
+		8846548E1607AC4700BD95D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8846548C1607AC4700BD95D9 /* InfoPlist.strings */; };
+		884654901607AC4700BD95D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8846548F1607AC4700BD95D9 /* main.m */; };
+		884654941607AC4700BD95D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 884654931607AC4700BD95D9 /* AppDelegate.m */; };
+		884654971607AC4700BD95D9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884654961607AC4700BD95D9 /* FirstViewController.m */; };
+		884654991607AC4700BD95D9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 884654981607AC4700BD95D9 /* first.png */; };
+		8846549B1607AC4700BD95D9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8846549A1607AC4700BD95D9 /* first@2x.png */; };
+		8846549E1607AC4700BD95D9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8846549D1607AC4700BD95D9 /* SecondViewController.m */; };
+		884654A01607AC4700BD95D9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8846549F1607AC4700BD95D9 /* second.png */; };
+		884654A21607AC4700BD95D9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 884654A11607AC4700BD95D9 /* second@2x.png */; };
+		884654A51607AC4700BD95D9 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884654A31607AC4700BD95D9 /* FirstViewController.xib */; };
+		884654A81607AC4700BD95D9 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884654A61607AC4700BD95D9 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8846547F1607AC4700BD95D9 /* MileTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MileTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		884654831607AC4700BD95D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		884654851607AC4700BD95D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		884654871607AC4700BD95D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8846548B1607AC4700BD95D9 /* MileTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MileTracker-Info.plist"; sourceTree = "<group>"; };
+		8846548D1607AC4700BD95D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8846548F1607AC4700BD95D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		884654911607AC4700BD95D9 /* MileTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MileTracker-Prefix.pch"; sourceTree = "<group>"; };
+		884654921607AC4700BD95D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		884654931607AC4700BD95D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		884654951607AC4700BD95D9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		884654961607AC4700BD95D9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		884654981607AC4700BD95D9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8846549A1607AC4700BD95D9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8846549C1607AC4700BD95D9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8846549D1607AC4700BD95D9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8846549F1607AC4700BD95D9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		884654A11607AC4700BD95D9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		884654A41607AC4700BD95D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		884654A71607AC4700BD95D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8846547C1607AC4700BD95D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884654841607AC4700BD95D9 /* UIKit.framework in Frameworks */,
+				884654861607AC4700BD95D9 /* Foundation.framework in Frameworks */,
+				884654881607AC4700BD95D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884654741607AC4700BD95D9 = {
+			isa = PBXGroup;
+			children = (
+				884654891607AC4700BD95D9 /* MileTracker */,
+				884654821607AC4700BD95D9 /* Frameworks */,
+				884654801607AC4700BD95D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		884654801607AC4700BD95D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8846547F1607AC4700BD95D9 /* MileTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884654821607AC4700BD95D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				884654831607AC4700BD95D9 /* UIKit.framework */,
+				884654851607AC4700BD95D9 /* Foundation.framework */,
+				884654871607AC4700BD95D9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		884654891607AC4700BD95D9 /* MileTracker */ = {
+			isa = PBXGroup;
+			children = (
+				884654921607AC4700BD95D9 /* AppDelegate.h */,
+				884654931607AC4700BD95D9 /* AppDelegate.m */,
+				884654951607AC4700BD95D9 /* FirstViewController.h */,
+				884654961607AC4700BD95D9 /* FirstViewController.m */,
+				884654981607AC4700BD95D9 /* first.png */,
+				8846549A1607AC4700BD95D9 /* first@2x.png */,
+				8846549C1607AC4700BD95D9 /* SecondViewController.h */,
+				8846549D1607AC4700BD95D9 /* SecondViewController.m */,
+				8846549F1607AC4700BD95D9 /* second.png */,
+				884654A11607AC4700BD95D9 /* second@2x.png */,
+				884654A31607AC4700BD95D9 /* FirstViewController.xib */,
+				884654A61607AC4700BD95D9 /* SecondViewController.xib */,
+				8846548A1607AC4700BD95D9 /* Supporting Files */,
+			);
+			path = MileTracker;
+			sourceTree = "<group>";
+		};
+		8846548A1607AC4700BD95D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8846548B1607AC4700BD95D9 /* MileTracker-Info.plist */,
+				8846548C1607AC4700BD95D9 /* InfoPlist.strings */,
+				8846548F1607AC4700BD95D9 /* main.m */,
+				884654911607AC4700BD95D9 /* MileTracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8846547E1607AC4700BD95D9 /* MileTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884654AB1607AC4700BD95D9 /* Build configuration list for PBXNativeTarget "MileTracker" */;
+			buildPhases = (
+				8846547B1607AC4700BD95D9 /* Sources */,
+				8846547C1607AC4700BD95D9 /* Frameworks */,
+				8846547D1607AC4700BD95D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MileTracker;
+			productName = MileTracker;
+			productReference = 8846547F1607AC4700BD95D9 /* MileTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884654761607AC4700BD95D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Emanuel;
+			};
+			buildConfigurationList = 884654791607AC4700BD95D9 /* Build configuration list for PBXProject "MileTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 884654741607AC4700BD95D9;
+			productRefGroup = 884654801607AC4700BD95D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8846547E1607AC4700BD95D9 /* MileTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8846547D1607AC4700BD95D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8846548E1607AC4700BD95D9 /* InfoPlist.strings in Resources */,
+				884654991607AC4700BD95D9 /* first.png in Resources */,
+				8846549B1607AC4700BD95D9 /* first@2x.png in Resources */,
+				884654A01607AC4700BD95D9 /* second.png in Resources */,
+				884654A21607AC4700BD95D9 /* second@2x.png in Resources */,
+				884654A51607AC4700BD95D9 /* FirstViewController.xib in Resources */,
+				884654A81607AC4700BD95D9 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8846547B1607AC4700BD95D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884654901607AC4700BD95D9 /* main.m in Sources */,
+				884654941607AC4700BD95D9 /* AppDelegate.m in Sources */,
+				884654971607AC4700BD95D9 /* FirstViewController.m in Sources */,
+				8846549E1607AC4700BD95D9 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8846548C1607AC4700BD95D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8846548D1607AC4700BD95D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		884654A31607AC4700BD95D9 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884654A41607AC4700BD95D9 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		884654A61607AC4700BD95D9 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884654A71607AC4700BD95D9 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884654A91607AC4700BD95D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		884654AA1607AC4700BD95D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884654AC1607AC4700BD95D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MileTracker/MileTracker-Prefix.pch";
+				INFOPLIST_FILE = "MileTracker/MileTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		884654AD1607AC4700BD95D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MileTracker/MileTracker-Prefix.pch";
+				INFOPLIST_FILE = "MileTracker/MileTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884654791607AC4700BD95D9 /* Build configuration list for PBXProject "MileTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884654A91607AC4700BD95D9 /* Debug */,
+				884654AA1607AC4700BD95D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884654AB1607AC4700BD95D9 /* Build configuration list for PBXNativeTarget "MileTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884654AC1607AC4700BD95D9 /* Debug */,
+				884654AD1607AC4700BD95D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 884654761607AC4700BD95D9 /* Project object */;
+}
