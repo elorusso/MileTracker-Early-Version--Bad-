@@ -7,23 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		880B03321620C51100E86B7F /* NewTripData.m in Sources */ = {isa = PBXBuildFile; fileRef = 880B03311620C51100E86B7F /* NewTripData.m */; };
+		881738E91609536700DF306E /* TripCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 881738E81609536700DF306E /* TripCell.m */; };
+		881738EB160955FE00DF306E /* TripCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881738EA160955FE00DF306E /* TripCell.xib */; };
+		881FE61E168B9A28009BD204 /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881FE61C168B9A28009BD204 /* PreviewViewController.m */; };
+		881FE61F168B9A28009BD204 /* PreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881FE61D168B9A28009BD204 /* PreviewViewController.xib */; };
+		881FE622168BB658009BD204 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881FE620168BB63C009BD204 /* MessageUI.framework */; };
+		88359A521630B36200708783 /* WizardVehicleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88359A511630B36200708783 /* WizardVehicleViewController.m */; };
+		8843E4991610EC2B0053C0E9 /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8843E4971610EC2B0053C0E9 /* DateViewController.m */; };
+		8843E49A1610EC2B0053C0E9 /* DateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8843E4981610EC2B0053C0E9 /* DateViewController.xib */; };
+		8843E49F1610F5B10053C0E9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8843E49D1610F59B0053C0E9 /* CoreLocation.framework */; };
+		8843E4A31610F5DA0053C0E9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8843E4A11610F5DA0053C0E9 /* MapViewController.m */; };
+		8843E4A41610F5DA0053C0E9 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8843E4A21610F5DA0053C0E9 /* MapViewController.xib */; };
+		8843E4A8161100C60053C0E9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8843E4A6161100B90053C0E9 /* MapKit.framework */; };
 		884654841607AC4700BD95D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884654831607AC4700BD95D9 /* UIKit.framework */; };
 		884654861607AC4700BD95D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884654851607AC4700BD95D9 /* Foundation.framework */; };
 		884654881607AC4700BD95D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884654871607AC4700BD95D9 /* CoreGraphics.framework */; };
 		8846548E1607AC4700BD95D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8846548C1607AC4700BD95D9 /* InfoPlist.strings */; };
 		884654901607AC4700BD95D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8846548F1607AC4700BD95D9 /* main.m */; };
 		884654941607AC4700BD95D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 884654931607AC4700BD95D9 /* AppDelegate.m */; };
-		884654971607AC4700BD95D9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884654961607AC4700BD95D9 /* FirstViewController.m */; };
-		884654991607AC4700BD95D9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 884654981607AC4700BD95D9 /* first.png */; };
-		8846549B1607AC4700BD95D9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8846549A1607AC4700BD95D9 /* first@2x.png */; };
-		8846549E1607AC4700BD95D9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8846549D1607AC4700BD95D9 /* SecondViewController.m */; };
-		884654A01607AC4700BD95D9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8846549F1607AC4700BD95D9 /* second.png */; };
-		884654A21607AC4700BD95D9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 884654A11607AC4700BD95D9 /* second@2x.png */; };
-		884654A51607AC4700BD95D9 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884654A31607AC4700BD95D9 /* FirstViewController.xib */; };
-		884654A81607AC4700BD95D9 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884654A61607AC4700BD95D9 /* SecondViewController.xib */; };
+		88495822164DB1BB003C7F52 /* ExpensesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88495821164DB1BB003C7F52 /* ExpensesViewController.m */; };
+		884F1EA81621173000F20103 /* WizardTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884F1EA71621173000F20103 /* WizardTypeViewController.m */; };
+		884F1EAC1621216B00F20103 /* WizardMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884F1EAB1621216B00F20103 /* WizardMapViewController.m */; };
+		88592718160BEC03009224A6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88592716160BEC03009224A6 /* DetailViewController.m */; };
+		88592719160BEC03009224A6 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88592717160BEC03009224A6 /* DetailViewController.xib */; };
+		8866641F162B94C700ECDB0A /* 113-navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = 8866641E162B94C700ECDB0A /* 113-navigation.png */; };
+		88666424162B972100ECDB0A /* 81-dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 88666423162B972100ECDB0A /* 81-dashboard.png */; };
+		8868811A181C4674001C17B5 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 88688119181C4674001C17B5 /* Trip.m */; };
+		886E2A4D1607AD67000F83CC /* TripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 886E2A4B1607AD67000F83CC /* TripsViewController.m */; };
+		886E2A4E1607AD67000F83CC /* TripsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886E2A4C1607AD67000F83CC /* TripsViewController.xib */; };
+		886E2A5A1607AEBC000F83CC /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 886E2A581607AEBC000F83CC /* SummaryViewController.m */; };
+		886E2A5B1607AEBC000F83CC /* SummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886E2A591607AEBC000F83CC /* SummaryViewController.xib */; };
+		886E2A5F1607B641000F83CC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 886E2A5D1607B641000F83CC /* SettingsViewController.m */; };
+		886E2A601607B641000F83CC /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886E2A5E1607B641000F83CC /* SettingsViewController.xib */; };
+		887184AA163E073600B3D964 /* WizardNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887184A9163E073600B3D964 /* WizardNotesViewController.m */; };
+		887520A2164C8AF3009E33BE /* WizardExpenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887520A1164C8AF3009E33BE /* WizardExpenseViewController.m */; };
+		8887DBD8164DD2F600230FD4 /* WizardInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887DBD7164DD2F600230FD4 /* WizardInfoViewController.m */; };
+		889ACEF6164576920095F1C8 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889ACEF31645767F0095F1C8 /* iAd.framework */; };
+		88A56CA7160E116300BB5CBC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A56CA4160E113B00BB5CBC /* QuartzCore.framework */; };
+		88A56CAB160E119100BB5CBC /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A56CA9160E119000BB5CBC /* InfoViewController.m */; };
+		88A56CAC160E119100BB5CBC /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A56CAA160E119000BB5CBC /* InfoViewController.xib */; };
+		88B36C7C1611130C001DA8F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B36C7B1611130C001DA8F4 /* Default-568h@2x.png */; };
+		88C751B61688C6700058FA12 /* ReportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C751B41688C6700058FA12 /* ReportsViewController.m */; };
+		88C751B71688C6700058FA12 /* ReportsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C751B51688C6700058FA12 /* ReportsViewController.xib */; };
+		88C751BB1688C8490058FA12 /* 179-notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C751BA1688C8490058FA12 /* 179-notepad.png */; };
+		88C751BD1688C9A00058FA12 /* 157-wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C751BC1688C9A00058FA12 /* 157-wrench.png */; };
+		88DE520D16436669001A2D2D /* Catagories Background.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 88DE520C16436669001A2D2D /* Catagories Background.PNG */; };
+		88E2008A1620A2E000843C1C /* Background in Resources */ = {isa = PBXBuildFile; fileRef = 88E200891620A2E000843C1C /* Background */; };
+		88E40737162F93F700CA5C9A /* VehicleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E40736162F93F600CA5C9A /* VehicleViewController.m */; };
+		88FE76FC160FEC45008CFEBD /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FE76FA160FEC45008CFEBD /* TypeViewController.m */; };
+		88FE76FD160FEC45008CFEBD /* TypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88FE76FB160FEC45008CFEBD /* TypeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		880B03301620C51100E86B7F /* NewTripData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTripData.h; sourceTree = "<group>"; };
+		880B03311620C51100E86B7F /* NewTripData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTripData.m; sourceTree = "<group>"; };
+		881738E71609536700DF306E /* TripCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripCell.h; sourceTree = "<group>"; };
+		881738E81609536700DF306E /* TripCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripCell.m; sourceTree = "<group>"; };
+		881738EA160955FE00DF306E /* TripCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TripCell.xib; sourceTree = "<group>"; };
+		881FE61B168B9A28009BD204 /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		881FE61C168B9A28009BD204 /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
+		881FE61D168B9A28009BD204 /* PreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreviewViewController.xib; sourceTree = "<group>"; };
+		881FE620168BB63C009BD204 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		88359A501630B36200708783 /* WizardVehicleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardVehicleViewController.h; sourceTree = "<group>"; };
+		88359A511630B36200708783 /* WizardVehicleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardVehicleViewController.m; sourceTree = "<group>"; };
+		8843E4961610EC2B0053C0E9 /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = "<group>"; };
+		8843E4971610EC2B0053C0E9 /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
+		8843E4981610EC2B0053C0E9 /* DateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateViewController.xib; sourceTree = "<group>"; };
+		8843E49D1610F59B0053C0E9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8843E4A01610F5DA0053C0E9 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		8843E4A11610F5DA0053C0E9 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		8843E4A21610F5DA0053C0E9 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		8843E4A6161100B90053C0E9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8846547F1607AC4700BD95D9 /* MileTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MileTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		884654831607AC4700BD95D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		884654851607AC4700BD95D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,16 +89,52 @@
 		884654911607AC4700BD95D9 /* MileTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MileTracker-Prefix.pch"; sourceTree = "<group>"; };
 		884654921607AC4700BD95D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		884654931607AC4700BD95D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		884654951607AC4700BD95D9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		884654961607AC4700BD95D9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		884654981607AC4700BD95D9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		8846549A1607AC4700BD95D9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		8846549C1607AC4700BD95D9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		8846549D1607AC4700BD95D9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		8846549F1607AC4700BD95D9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		884654A11607AC4700BD95D9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		884654A41607AC4700BD95D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		884654A71607AC4700BD95D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		88495820164DB1BB003C7F52 /* ExpensesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensesViewController.h; sourceTree = "<group>"; };
+		88495821164DB1BB003C7F52 /* ExpensesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesViewController.m; sourceTree = "<group>"; };
+		884F1EA61621173000F20103 /* WizardTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardTypeViewController.h; sourceTree = "<group>"; };
+		884F1EA71621173000F20103 /* WizardTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardTypeViewController.m; sourceTree = "<group>"; };
+		884F1EAA1621216B00F20103 /* WizardMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardMapViewController.h; sourceTree = "<group>"; };
+		884F1EAB1621216B00F20103 /* WizardMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardMapViewController.m; sourceTree = "<group>"; };
+		88592715160BEC03009224A6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		88592716160BEC03009224A6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		88592717160BEC03009224A6 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		8866641E162B94C700ECDB0A /* 113-navigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "113-navigation.png"; sourceTree = "<group>"; };
+		88666423162B972100ECDB0A /* 81-dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "81-dashboard.png"; sourceTree = "<group>"; };
+		88688118181C4674001C17B5 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		88688119181C4674001C17B5 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		886E2A4A1607AD67000F83CC /* TripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripsViewController.h; sourceTree = "<group>"; };
+		886E2A4B1607AD67000F83CC /* TripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripsViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		886E2A4C1607AD67000F83CC /* TripsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TripsViewController.xib; sourceTree = "<group>"; };
+		886E2A571607AEBC000F83CC /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
+		886E2A581607AEBC000F83CC /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
+		886E2A591607AEBC000F83CC /* SummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryViewController.xib; sourceTree = "<group>"; };
+		886E2A5C1607B641000F83CC /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		886E2A5D1607B641000F83CC /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		886E2A5E1607B641000F83CC /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		887184A8163E073600B3D964 /* WizardNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardNotesViewController.h; sourceTree = "<group>"; };
+		887184A9163E073600B3D964 /* WizardNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardNotesViewController.m; sourceTree = "<group>"; };
+		887520A0164C8AF3009E33BE /* WizardExpenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardExpenseViewController.h; sourceTree = "<group>"; };
+		887520A1164C8AF3009E33BE /* WizardExpenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardExpenseViewController.m; sourceTree = "<group>"; };
+		8887DBD6164DD2F600230FD4 /* WizardInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardInfoViewController.h; sourceTree = "<group>"; };
+		8887DBD7164DD2F600230FD4 /* WizardInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardInfoViewController.m; sourceTree = "<group>"; };
+		889ACEF31645767F0095F1C8 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		88A56CA4160E113B00BB5CBC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		88A56CA8160E119000BB5CBC /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		88A56CA9160E119000BB5CBC /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		88A56CAA160E119000BB5CBC /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		88B36C7B1611130C001DA8F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		88C751B31688C6700058FA12 /* ReportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportsViewController.h; sourceTree = "<group>"; };
+		88C751B41688C6700058FA12 /* ReportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportsViewController.m; sourceTree = "<group>"; };
+		88C751B51688C6700058FA12 /* ReportsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReportsViewController.xib; sourceTree = "<group>"; };
+		88C751BA1688C8490058FA12 /* 179-notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "179-notepad.png"; sourceTree = "<group>"; };
+		88C751BC1688C9A00058FA12 /* 157-wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "157-wrench.png"; sourceTree = "<group>"; };
+		88DE520C16436669001A2D2D /* Catagories Background.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Catagories Background.PNG"; sourceTree = "<group>"; };
+		88E200891620A2E000843C1C /* Background */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background; sourceTree = "<group>"; };
+		88E40735162F93F600CA5C9A /* VehicleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleViewController.h; sourceTree = "<group>"; };
+		88E40736162F93F600CA5C9A /* VehicleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleViewController.m; sourceTree = "<group>"; };
+		88FE76F9160FEC45008CFEBD /* TypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeViewController.h; sourceTree = "<group>"; };
+		88FE76FA160FEC45008CFEBD /* TypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
+		88FE76FB160FEC45008CFEBD /* TypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TypeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,18 +142,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881FE622168BB658009BD204 /* MessageUI.framework in Frameworks */,
+				889ACEF6164576920095F1C8 /* iAd.framework in Frameworks */,
+				8843E4A8161100C60053C0E9 /* MapKit.framework in Frameworks */,
+				8843E49F1610F5B10053C0E9 /* CoreLocation.framework in Frameworks */,
+				88A56CA7160E116300BB5CBC /* QuartzCore.framework in Frameworks */,
 				884654841607AC4700BD95D9 /* UIKit.framework in Frameworks */,
-				884654861607AC4700BD95D9 /* Foundation.framework in Frameworks */,
 				884654881607AC4700BD95D9 /* CoreGraphics.framework in Frameworks */,
+				884654861607AC4700BD95D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		880B03341620C51500E86B7F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				880B03301620C51100E86B7F /* NewTripData.h */,
+				880B03311620C51100E86B7F /* NewTripData.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		881738E31607D3A300DF306E /* Custom Trip Cell */ = {
+			isa = PBXGroup;
+			children = (
+				881738E71609536700DF306E /* TripCell.h */,
+				881738E81609536700DF306E /* TripCell.m */,
+				881738EA160955FE00DF306E /* TripCell.xib */,
+			);
+			name = "Custom Trip Cell";
+			sourceTree = "<group>";
+		};
+		881FE619168B9A11009BD204 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				881FE61B168B9A28009BD204 /* PreviewViewController.h */,
+				881FE61C168B9A28009BD204 /* PreviewViewController.m */,
+				881FE61D168B9A28009BD204 /* PreviewViewController.xib */,
+			);
+			name = Preview;
+			sourceTree = "<group>";
+		};
+		8843E49C1610EC320053C0E9 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				8843E4961610EC2B0053C0E9 /* DateViewController.h */,
+				8843E4971610EC2B0053C0E9 /* DateViewController.m */,
+				8843E4981610EC2B0053C0E9 /* DateViewController.xib */,
+			);
+			name = Date;
+			sourceTree = "<group>";
+		};
+		8843E4A51610F5DE0053C0E9 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8843E4A01610F5DA0053C0E9 /* MapViewController.h */,
+				8843E4A11610F5DA0053C0E9 /* MapViewController.m */,
+				8843E4A21610F5DA0053C0E9 /* MapViewController.xib */,
+				884F1EAD1621217000F20103 /* Subclasses */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
 		884654741607AC4700BD95D9 = {
 			isa = PBXGroup;
 			children = (
+				88B36C7B1611130C001DA8F4 /* Default-568h@2x.png */,
+				88C751BA1688C8490058FA12 /* 179-notepad.png */,
+				8866641E162B94C700ECDB0A /* 113-navigation.png */,
+				88DE520C16436669001A2D2D /* Catagories Background.PNG */,
+				88C751BC1688C9A00058FA12 /* 157-wrench.png */,
+				88666423162B972100ECDB0A /* 81-dashboard.png */,
+				88E200891620A2E000843C1C /* Background */,
 				884654891607AC4700BD95D9 /* MileTracker */,
 				884654821607AC4700BD95D9 /* Frameworks */,
 				884654801607AC4700BD95D9 /* Products */,
@@ -80,6 +233,11 @@
 		884654821607AC4700BD95D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				881FE620168BB63C009BD204 /* MessageUI.framework */,
+				889ACEF31645767F0095F1C8 /* iAd.framework */,
+				8843E4A6161100B90053C0E9 /* MapKit.framework */,
+				8843E49D1610F59B0053C0E9 /* CoreLocation.framework */,
+				88A56CA4160E113B00BB5CBC /* QuartzCore.framework */,
 				884654831607AC4700BD95D9 /* UIKit.framework */,
 				884654851607AC4700BD95D9 /* Foundation.framework */,
 				884654871607AC4700BD95D9 /* CoreGraphics.framework */,
@@ -92,16 +250,10 @@
 			children = (
 				884654921607AC4700BD95D9 /* AppDelegate.h */,
 				884654931607AC4700BD95D9 /* AppDelegate.m */,
-				884654951607AC4700BD95D9 /* FirstViewController.h */,
-				884654961607AC4700BD95D9 /* FirstViewController.m */,
-				884654981607AC4700BD95D9 /* first.png */,
-				8846549A1607AC4700BD95D9 /* first@2x.png */,
-				8846549C1607AC4700BD95D9 /* SecondViewController.h */,
-				8846549D1607AC4700BD95D9 /* SecondViewController.m */,
-				8846549F1607AC4700BD95D9 /* second.png */,
-				884654A11607AC4700BD95D9 /* second@2x.png */,
-				884654A31607AC4700BD95D9 /* FirstViewController.xib */,
-				884654A61607AC4700BD95D9 /* SecondViewController.xib */,
+				886E2A501607ADB0000F83CC /* Trips */,
+				886E2A561607AE2A000F83CC /* Summary */,
+				886E2A611607B644000F83CC /* Settings */,
+				88C751B91688C6D50058FA12 /* Reports */,
 				8846548A1607AC4700BD95D9 /* Supporting Files */,
 			);
 			path = MileTracker;
@@ -116,6 +268,157 @@
 				884654911607AC4700BD95D9 /* MileTracker-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		884F1EA516210FE900F20103 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				8887DBD6164DD2F600230FD4 /* WizardInfoViewController.h */,
+				8887DBD7164DD2F600230FD4 /* WizardInfoViewController.m */,
+				887184A8163E073600B3D964 /* WizardNotesViewController.h */,
+				887184A9163E073600B3D964 /* WizardNotesViewController.m */,
+				8875209A164C8468009E33BE /* Expenses */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
+		884F1EA91621176C00F20103 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				884F1EA61621173000F20103 /* WizardTypeViewController.h */,
+				884F1EA71621173000F20103 /* WizardTypeViewController.m */,
+				88E40738162F943400CA5C9A /* Vehicle */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
+		884F1EAD1621217000F20103 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				884F1EAA1621216B00F20103 /* WizardMapViewController.h */,
+				884F1EAB1621216B00F20103 /* WizardMapViewController.m */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
+		8859271B160BEC07009224A6 /* New/Edit Trip */ = {
+			isa = PBXGroup;
+			children = (
+				88592715160BEC03009224A6 /* DetailViewController.h */,
+				88592716160BEC03009224A6 /* DetailViewController.m */,
+				88592717160BEC03009224A6 /* DetailViewController.xib */,
+				880B03341620C51500E86B7F /* Data */,
+				88A56CAD160E119C00BB5CBC /* Info */,
+				88FE76FF160FEC48008CFEBD /* Type */,
+				8843E49C1610EC320053C0E9 /* Date */,
+				8843E4A51610F5DE0053C0E9 /* Map */,
+			);
+			name = "New/Edit Trip";
+			sourceTree = "<group>";
+		};
+		88688117181C465D001C17B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				88688118181C4674001C17B5 /* Trip.h */,
+				88688119181C4674001C17B5 /* Trip.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		886E2A501607ADB0000F83CC /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				88688117181C465D001C17B5 /* Classes */,
+				881738E31607D3A300DF306E /* Custom Trip Cell */,
+				886E2A4A1607AD67000F83CC /* TripsViewController.h */,
+				886E2A4B1607AD67000F83CC /* TripsViewController.m */,
+				886E2A4C1607AD67000F83CC /* TripsViewController.xib */,
+				8859271B160BEC07009224A6 /* New/Edit Trip */,
+			);
+			name = Trips;
+			sourceTree = "<group>";
+		};
+		886E2A561607AE2A000F83CC /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				886E2A571607AEBC000F83CC /* SummaryViewController.h */,
+				886E2A581607AEBC000F83CC /* SummaryViewController.m */,
+				886E2A591607AEBC000F83CC /* SummaryViewController.xib */,
+			);
+			name = Summary;
+			sourceTree = "<group>";
+		};
+		886E2A611607B644000F83CC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				886E2A5C1607B641000F83CC /* SettingsViewController.h */,
+				886E2A5D1607B641000F83CC /* SettingsViewController.m */,
+				886E2A5E1607B641000F83CC /* SettingsViewController.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		8875209A164C8468009E33BE /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				88495820164DB1BB003C7F52 /* ExpensesViewController.h */,
+				88495821164DB1BB003C7F52 /* ExpensesViewController.m */,
+				8875209F164C8AD2009E33BE /* Wizard Expenses */,
+			);
+			name = Expenses;
+			sourceTree = "<group>";
+		};
+		8875209F164C8AD2009E33BE /* Wizard Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				887520A0164C8AF3009E33BE /* WizardExpenseViewController.h */,
+				887520A1164C8AF3009E33BE /* WizardExpenseViewController.m */,
+			);
+			name = "Wizard Expenses";
+			sourceTree = "<group>";
+		};
+		88A56CAD160E119C00BB5CBC /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				88A56CA8160E119000BB5CBC /* InfoViewController.h */,
+				88A56CA9160E119000BB5CBC /* InfoViewController.m */,
+				88A56CAA160E119000BB5CBC /* InfoViewController.xib */,
+				884F1EA516210FE900F20103 /* Subclasses */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		88C751B91688C6D50058FA12 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				88C751B31688C6700058FA12 /* ReportsViewController.h */,
+				88C751B41688C6700058FA12 /* ReportsViewController.m */,
+				88C751B51688C6700058FA12 /* ReportsViewController.xib */,
+				881FE619168B9A11009BD204 /* Preview */,
+			);
+			name = Reports;
+			sourceTree = "<group>";
+		};
+		88E40738162F943400CA5C9A /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				88E40735162F93F600CA5C9A /* VehicleViewController.h */,
+				88E40736162F93F600CA5C9A /* VehicleViewController.m */,
+				88359A501630B36200708783 /* WizardVehicleViewController.h */,
+				88359A511630B36200708783 /* WizardVehicleViewController.m */,
+			);
+			name = Vehicle;
+			sourceTree = "<group>";
+		};
+		88FE76FF160FEC48008CFEBD /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				88FE76F9160FEC45008CFEBD /* TypeViewController.h */,
+				88FE76FA160FEC45008CFEBD /* TypeViewController.m */,
+				88FE76FB160FEC45008CFEBD /* TypeViewController.xib */,
+				884F1EA91621176C00F20103 /* Subclasses */,
+			);
+			name = Type;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,12 +473,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				8846548E1607AC4700BD95D9 /* InfoPlist.strings in Resources */,
-				884654991607AC4700BD95D9 /* first.png in Resources */,
-				8846549B1607AC4700BD95D9 /* first@2x.png in Resources */,
-				884654A01607AC4700BD95D9 /* second.png in Resources */,
-				884654A21607AC4700BD95D9 /* second@2x.png in Resources */,
-				884654A51607AC4700BD95D9 /* FirstViewController.xib in Resources */,
-				884654A81607AC4700BD95D9 /* SecondViewController.xib in Resources */,
+				886E2A4E1607AD67000F83CC /* TripsViewController.xib in Resources */,
+				886E2A5B1607AEBC000F83CC /* SummaryViewController.xib in Resources */,
+				886E2A601607B641000F83CC /* SettingsViewController.xib in Resources */,
+				881738EB160955FE00DF306E /* TripCell.xib in Resources */,
+				88592719160BEC03009224A6 /* DetailViewController.xib in Resources */,
+				88A56CAC160E119100BB5CBC /* InfoViewController.xib in Resources */,
+				88FE76FD160FEC45008CFEBD /* TypeViewController.xib in Resources */,
+				8843E49A1610EC2B0053C0E9 /* DateViewController.xib in Resources */,
+				8843E4A41610F5DA0053C0E9 /* MapViewController.xib in Resources */,
+				88B36C7C1611130C001DA8F4 /* Default-568h@2x.png in Resources */,
+				88E2008A1620A2E000843C1C /* Background in Resources */,
+				8866641F162B94C700ECDB0A /* 113-navigation.png in Resources */,
+				88666424162B972100ECDB0A /* 81-dashboard.png in Resources */,
+				88DE520D16436669001A2D2D /* Catagories Background.PNG in Resources */,
+				88C751B71688C6700058FA12 /* ReportsViewController.xib in Resources */,
+				88C751BB1688C8490058FA12 /* 179-notepad.png in Resources */,
+				88C751BD1688C9A00058FA12 /* 157-wrench.png in Resources */,
+				881FE61F168B9A28009BD204 /* PreviewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,8 +503,27 @@
 			files = (
 				884654901607AC4700BD95D9 /* main.m in Sources */,
 				884654941607AC4700BD95D9 /* AppDelegate.m in Sources */,
-				884654971607AC4700BD95D9 /* FirstViewController.m in Sources */,
-				8846549E1607AC4700BD95D9 /* SecondViewController.m in Sources */,
+				886E2A4D1607AD67000F83CC /* TripsViewController.m in Sources */,
+				886E2A5A1607AEBC000F83CC /* SummaryViewController.m in Sources */,
+				8868811A181C4674001C17B5 /* Trip.m in Sources */,
+				886E2A5F1607B641000F83CC /* SettingsViewController.m in Sources */,
+				881738E91609536700DF306E /* TripCell.m in Sources */,
+				88592718160BEC03009224A6 /* DetailViewController.m in Sources */,
+				88A56CAB160E119100BB5CBC /* InfoViewController.m in Sources */,
+				88FE76FC160FEC45008CFEBD /* TypeViewController.m in Sources */,
+				8843E4991610EC2B0053C0E9 /* DateViewController.m in Sources */,
+				8843E4A31610F5DA0053C0E9 /* MapViewController.m in Sources */,
+				880B03321620C51100E86B7F /* NewTripData.m in Sources */,
+				884F1EA81621173000F20103 /* WizardTypeViewController.m in Sources */,
+				884F1EAC1621216B00F20103 /* WizardMapViewController.m in Sources */,
+				88E40737162F93F700CA5C9A /* VehicleViewController.m in Sources */,
+				88359A521630B36200708783 /* WizardVehicleViewController.m in Sources */,
+				887184AA163E073600B3D964 /* WizardNotesViewController.m in Sources */,
+				887520A2164C8AF3009E33BE /* WizardExpenseViewController.m in Sources */,
+				88495822164DB1BB003C7F52 /* ExpensesViewController.m in Sources */,
+				8887DBD8164DD2F600230FD4 /* WizardInfoViewController.m in Sources */,
+				88C751B61688C6700058FA12 /* ReportsViewController.m in Sources */,
+				881FE61E168B9A28009BD204 /* PreviewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,22 +536,6 @@
 				8846548D1607AC4700BD95D9 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		884654A31607AC4700BD95D9 /* FirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				884654A41607AC4700BD95D9 /* en */,
-			);
-			name = FirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		884654A61607AC4700BD95D9 /* SecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				884654A71607AC4700BD95D9 /* en */,
-			);
-			name = SecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,7 +596,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MileTracker/MileTracker-Prefix.pch";
 				INFOPLIST_FILE = "MileTracker/MileTracker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -289,7 +609,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MileTracker/MileTracker-Prefix.pch";
 				INFOPLIST_FILE = "MileTracker/MileTracker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -313,6 +635,7 @@
 				884654AD1607AC4700BD95D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,24 +8,66 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
+#import "TripsViewController.h"
 
-#import "SecondViewController.h"
+#import "SummaryViewController.h"
+
+#import "SettingsViewController.h"
+
+#import "ReportsViewController.h"
+
+@interface AppDelegate ()
+
+- (UIViewController *)setUpTripsTab;
+
+- (UIViewController *)setUpSummaryTab;
+
+- (UIViewController *)setUpSettingsTab;
+
+- (UIViewController *)setUpReportsTab;
+
+@end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController = [[UITabBarController alloc] init];           //init tab bar 
+    self.tabBarController.viewControllers = @[[self setUpTripsTab], [self setUpSummaryTab], [self setUpSettingsTab], [self setUpReportsTab]];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+    if ([[NSUserDefaults standardUserDefaults] stringForKey:@"units"] == nil) {
+        [[NSUserDefaults standardUserDefaults] setObject:@" mi" forKey:@"units"];
+    }
+    
     return YES;
 }
+  
+- (UIViewController *)setUpTripsTab {  //set up each tab with navigation controllers
+    UIViewController *viewController = [[TripsViewController alloc] initWithNibName:@"TripsViewController" bundle:nil];
+    viewController.tabBarItem.image = [UIImage imageNamed:@"113-navigation"];
+    return viewController;
+}
+
+- (UIViewController *)setUpSummaryTab {
+    UIViewController *viewController = [[SummaryViewController alloc] initWithNibName:@"SummaryViewController" bundle:nil];
+    viewController.tabBarItem.image = [UIImage imageNamed:@"81-dashboard"];
+    return viewController;
+}
+
+- (UIViewController *)setUpSettingsTab {
+    UIViewController *viewController = [[SettingsViewController alloc] initWithNibName:@"SettingsViewController" bundle:nil];
+    viewController.tabBarItem.image = [UIImage imageNamed:@"157-wrench"];
+    return viewController;
+}
+
+- (UIViewController *)setUpReportsTab {
+    UIViewController *viewController = [[ReportsViewController alloc] initWithNibName:@"ReportsViewController" bundle:nil];
+    viewController.tabBarItem.image = [UIImage imageNamed:@"179-notepad"];
+    return viewController;
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  SettingsViewController.h
 //  MileTracker
 //
 //  Created by Emanuel on 9/17/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SettingsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
